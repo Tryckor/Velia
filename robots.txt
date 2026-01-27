@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://velia-digital.fr/sitemap.xml
