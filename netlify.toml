@@ -1,0 +1,26 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "http://velia-digital.fr/*"
+  to = "https://velia-digital.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.velia-digital.fr/*"
+  to = "https://velia-digital.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.velia-digital.fr/*"
+  to = "https://velia-digital.fr/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
